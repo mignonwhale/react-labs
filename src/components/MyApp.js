@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Input, { InputChange, InputState } from './Input';
 import Iterator from './Iterator';
 import EventDeclare, { ArrowEvent, InlineEvent } from './EventHandle';
+import UseEffect from './UseEffect';
 
 
 
@@ -55,6 +56,9 @@ export default function MyApp() {
         </li>
         <ArrowEvent />
       </ul>
+
+      <h1>useEffect</h1>
+      <UseEffect />
 
 
     </>
